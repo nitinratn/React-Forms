@@ -1,11 +1,38 @@
 .App {
+  /* text-align: center; */
+  /* background-color: chocolate; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.form_div{
+  background-color: rgba(46, 29, 29, 0.858);
+  width: 40%;
+  height: 70%;
+  border-radius: 1em;
+  padding: 1em 0;
+}
+/* .inner_div{
+  margin: 0 auto;
+  width: 50%;
+  background-color: yellow;
+  height: 450px;
+}
+.form_div{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+} */
+/* .claculator_div{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  background-color: burlywood;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
